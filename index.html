@@ -27,9 +27,17 @@
           <li class="main-menu__item"></li>
           <a href="#" class="main-menu__link">contact</a>
           <li class="main-menu__item"></li>
-          <a href="#" class="main-menu__link">SVG</a>
+          <a href="#" class="main-menu__link_icon">
+            <svg class="main-menu__icon">
+              <use href="./img/sprite-header.svg#basket"></use>
+            </svg><span class="visually-hidden">icon basket</span>
+          </a>
           <li class="main-menu__item"></li>
-          <a href="#" class="main-menu__link">SVG</a>
+          <button class="search-btn main-menu__link_icon">
+            <svg class="main-menu__icon">
+              <use href="./img/sprite-header.svg#search"></use>
+            </svg><span class="visually-hidden">icon search</span>
+          </button>
         </ul>
       </nav>
 
@@ -37,16 +45,177 @@
           Template</span>Welcome to MoGo</h1>
     </div>
 
-    <a href="#" class="link-btn">Learn more</a>
+    <a href="#" class="link-more">Learn more</a>
 
   </header>
 
   <main>
+    <section class="services">
+      <div class="container container__sections-flex">
+        <h2 class="second-title"><span class="text-decoration second-title__text-decoration">We work with</span>Amazing
+          Services</h2>
 
+        <ul class="servisces-list">
+
+          <li class="services-list__item">
+            <svg class="services-list__item-icon">
+              <title class="main-menu__icon-title">icon clock</title>
+              <use href="./img/sprite-services.svg#alarm"></use>
+            </svg>
+            <h3 class="tree-title services__tree-title">Photography</h3>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </li>
+
+          <li class="services-list__item">
+            <svg class="services-list__item-icon">
+              <title class="main-menu__icon-title">icon line graphic</title>
+              <use href="./img/sprite-services.svg#graph"></use>
+            </svg>
+            <h3 class="tree-title services__tree-title">Web Design</h3>
+            <p class="paragraph">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </li>
+
+          <li class="services-list__item">
+            <svg class="services-list__item-icon">
+              <title class="main-menu__icon-title">icon computer</title>
+              <use href="./img/sprite-services.svg#computer"></use>
+            </svg>
+            <h3 class="tree-title services__tree-title">Creativity</h3>
+            <p class="paragraph">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </li>
+
+          <li class="services-list__item">
+            <svg class="services-list__item-icon">
+              <title class="main-menu__icon-title">icon book</title>
+              <use href="./img/sprite-services.svg#book"></use>
+            </svg>
+            <h3 class="tree-title services__tree-title">seo</h3>
+            <p class="paragraph">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+          </li>
+
+          <li class="services-list__item">
+            <svg class="services-list__item-icon">
+              <title class="main-menu__icon-title">icon home</title>
+              <use href="./img/sprite-services.svg#home"></use>
+            </svg>
+            <h3 class="tree-title services__tree-title">Css/Html</h3>
+            <p class="paragraph">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+          </li>
+
+          <li class="services-list__item">
+            <svg class="services-list__item-icon">
+              <title class="main-menu__icon-title">icon image</title>
+              <use href="./img/sprite-services.svg#image"></use>
+            </svg>
+            <h3 class="tree-title services__tree-title">digital</h3>
+            <p class="paragraph">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="container container__sections-flex">
+        <h2 class="second-title team__second-title"><span class="text-decoration second-title__text-decoration">Who we
+            are</span>Meet our team</h2>
+        <p class="paragraph team__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt
+          ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        <ul class="card-list">
+          <li class="card-list__item">
+            <div class="card-list__container">
+              <img srcset="./img/dix.jpg 380w, ./img/dix@2x.jpg 760w" alt="Matthew Dix" sizes="380px" height="470"
+                class="card-list__image">
+              <ul class="overlay">
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_facebook">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#facebook"></use>
+                    </svg><span class="visually-hidden">icon facebook</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_twitter">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#twitter"></use>
+                    </svg><span class="visually-hidden">icon twitter</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_pinterest">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#pinterest"></use>
+                    </svg><span class="visually-hidden">icon pinterest</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_instagram">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#instagram"></use>
+                    </svg><span class="visually-hidden">icon instagram</span></a></li>
+              </ul>
+            </div>
+            <h3 class="tree-title card-list__tree-title">Matthew Dix</h3>
+            <p class="paragraph card-list__paragraph">Graphic Design</p>
+          </li>
+
+          <li class="card-list__item">
+            <div class="card-list__container">
+              <img srcset="./img/campbell.jpg 380w, ./img/campbell@2x.jpg 760w" alt="Christopher Campbell" sizes="380px"
+                height="470" class="card-list__image">
+              <ul class="overlay">
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_facebook">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#facebook"></use>
+                    </svg><span class="visually-hidden">icon facebook</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_twitter">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#twitter"></use>
+                    </svg><span class="visually-hidden">icon twitter</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_pinterest">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#pinterest"></use>
+                    </svg><span class="visually-hidden">icon pinterest</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_instagram">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#instagram"></use>
+                    </svg><span class="visually-hidden">icon instagram</span></a></li>
+              </ul>
+            </div>
+            <h3 class="tree-title card-list__tree-title">Christopher Campbell</h3>
+            <p class="paragraph card-list__paragraph">Branding/UX design</p>
+          </li>
+
+          <li class="card-list__item">
+            <div class="card-list__container">
+              <img srcset="./img/fertig.jpg 380w, ./img/fertig@2x.jpg 760w" alt="Michael Fertig" sizes="380px"
+                height="470" class="card-list__image">
+              <ul class="overlay">
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_facebook">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#facebook"></use>
+                    </svg><span class="visually-hidden">icon facebook</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_twitter">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#twitter"></use>
+                    </svg><span class="visually-hidden">icon twitter</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_pinterest">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#pinterest"></use>
+                    </svg><span class="visually-hidden">icon pinterest</span></a></li>
+                <li class="overlay__item"><a href="#" class="overlay__link overlay__link_instagram">
+                    <svg class="overlay__item-icon">
+                      <use href="./img/sprite-social.svg#instagram"></use>
+                    </svg><span class="visually-hidden">icon instagram</span></a></li>
+              </ul>
+            </div>
+            <h3 class="tree-title card-list__tree-title">Michael Fertig</h3>
+            <p class="paragraph card-list__paragraph">Developer</p>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
-
-  <footer>
-
+  <footer class="footer">
+    <div class="container footer__container">
+      <p>&copy; 2016 MoGo free PSD template by <a href="" class="footer__link">Laaqiq</a></p>
+      <form action="#" class="form-subscribe">
+        <input type="email" name="mail" required placeholder="Your Email..." class="form-subscribe__input">
+        <button class="form-subscribe__button">Subscribe</button>
+      </form>
+    </div>
   </footer>
 
 </body>
